@@ -2,6 +2,11 @@
   "name": "@layerzerolabs/layerzero-v2",
   "version": "2.0.2",
   "private": true,
+  "workspaces": [
+    "protocol",
+    "messagelib",
+    "oapp"
+  ],
   "scripts": {
     "clean": "$npm_execpath workspaces foreach --all run clean",
     "build": "$npm_execpath workspaces foreach --all run build",
